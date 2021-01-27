@@ -8,6 +8,7 @@ namespace GenericsIntro
     {
         T[] items;
         // Constructor --
+
         public Mylist()
         {
             items = new T[0];
@@ -26,7 +27,8 @@ namespace GenericsIntro
 
             items[items.Length - 1] = item;
 
-
         }
+
+
     }
 }
