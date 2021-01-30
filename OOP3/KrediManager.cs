@@ -9,7 +9,7 @@ namespace OOP3
     //
     interface IKrediManager 
     {
-        void Hesapla();
+        void Hesapla(int maas=4500,int kredi=50000);
         void BiseyYap();
 
 
